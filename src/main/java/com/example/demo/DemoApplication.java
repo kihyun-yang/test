@@ -30,6 +30,7 @@ public class DemoApplication {
         List<String> list = new ArrayList<>();
         list.add("yang");
         list.add("jung");
+        list.add("jang");
 
         List<Integer> collect = list.stream().map(Integer::parseInt).collect(Collectors.toList());
 
