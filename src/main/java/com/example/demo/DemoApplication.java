@@ -5,6 +5,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.stream.Collectors;
+
 @SpringBootApplication
 public class DemoApplication {
 
@@ -21,6 +25,15 @@ public class DemoApplication {
 
         for (String s : beanNamesForType) {
             System.out.println("name: " + s + " bean: " + ac.getBean(s));
+        }
+
+        List<String> list = new ArrayList<>();
+        list.add("yang");
+
+        List<Integer> collect = list.stream().map(Integer::parseInt).collect(Collectors.toList());
+
+        for (Integer integer : collect) {
+            System.out.println(integer);
         }
 
     }
