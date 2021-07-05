@@ -1,2 +1,7 @@
-package com.example.demo;public class AppConfig {
+package com.example.demo;
+
+import org.springframework.context.annotation.Configuration;
+
+@Configuration
+public class AppConfig {
 }
