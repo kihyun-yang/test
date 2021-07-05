@@ -31,7 +31,6 @@ public class DemoApplication {
         list.add("yang");
         list.add("jung");
         list.add("jang");
-        list.add("kim");
 
         List<Integer> collect = list.stream().map(Integer::parseInt).collect(Collectors.toList());
 
