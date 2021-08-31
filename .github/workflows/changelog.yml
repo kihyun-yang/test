@@ -2,10 +2,13 @@ name: Changelog Generator
 on:
   # Trigger the workflow on pull request,
   # but only for the master branch
-  pull_request:
+#  pull_request:
+#    branches:
+#      - master
+#    types: [opened, reopened, synchronize]
+  push:
     branches:
       - master
-    types: [opened, reopened, synchronize]
 
 jobs:
   changelog:
