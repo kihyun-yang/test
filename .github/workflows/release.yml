@@ -22,7 +22,9 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - name: setup semantic-release
         run: npm install -g semantic-release @semantic-release/changelog @semantic-release/commit-analyzer @semantic-release/exec semantic-release/git semantic-release/release-notes-generator
+      - name: add authority
+        run: chmod +x ./prepare-release.sh
       - name: release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: chmod +x ./prepare-release.sh && npx semantic-release
+        run: ./prepare-release.sh && npx semantic-release
