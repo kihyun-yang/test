@@ -31,6 +31,8 @@ public class DemoApplication {
         System.out.println("semantic release test12");
         System.out.println("semantic release test13");
 
+        System.out.println("semantic release test13");
+
         SpringApplication.run(DemoApplication.class, args);
 
         ApplicationContext ac = new AnnotationConfigApplicationContext(AppConfig.class);
