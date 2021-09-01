@@ -20,6 +20,7 @@ public class DemoApplication {
         System.out.println("semantic release test2");
         System.out.println("semantic release test3");
         System.out.println("semantic release test4");
+        System.out.println("semantic release test5");
 
         SpringApplication.run(DemoApplication.class, args);
 
