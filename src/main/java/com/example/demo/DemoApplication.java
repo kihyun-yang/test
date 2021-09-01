@@ -18,6 +18,7 @@ public class DemoApplication {
         System.out.println("husky test3");
         System.out.println("semantic release test1");
         System.out.println("semantic release test2");
+        System.out.println("semantic release test3");
 
         SpringApplication.run(DemoApplication.class, args);
 
