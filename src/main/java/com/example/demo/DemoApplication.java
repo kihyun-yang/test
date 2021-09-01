@@ -24,7 +24,6 @@ public class DemoApplication {
         System.out.println("semantic release test6");
 
         System.out.println("semantic release test7");
-        System.out.println("semantic release test8");
       
         SpringApplication.run(DemoApplication.class, args);
 
