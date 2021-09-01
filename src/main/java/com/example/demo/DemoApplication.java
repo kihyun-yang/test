@@ -23,6 +23,14 @@ public class DemoApplication {
         System.out.println("semantic release test5");
         System.out.println("semantic release test6");
 
+        System.out.println("semantic release test7");
+        System.out.println("semantic release test8");
+        System.out.println("semantic release test9");
+        System.out.println("semantic release test10");
+        System.out.println("semantic release test11");
+        System.out.println("semantic release test12");
+        System.out.println("semantic release test13");
+
         SpringApplication.run(DemoApplication.class, args);
 
         ApplicationContext ac = new AnnotationConfigApplicationContext(AppConfig.class);
