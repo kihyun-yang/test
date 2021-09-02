@@ -1,5 +1,17 @@
 # Semantic Versioning Changelog
 
+# [5.1.0](https://github.com/kihyun-yang/test/compare/v5.0.4...v5.1.0) (2021-09-02)
+
+
+### Bug Fixes
+
+* **test:** .releaserc 수정 ([9264e18](https://github.com/kihyun-yang/test/commit/9264e18e59e80b28e8e2d060952710e3362e518b))
+
+
+### Features
+
+* **test:** 기능 업데이트 ([48eab77](https://github.com/kihyun-yang/test/commit/48eab775a1f2f614bbd22f293e477a13ee5016e2))
+
 ## [5.0.4](https://github.com/kihyun-yang/test/compare/v5.0.3...v5.0.4) (2021-09-02)
 
 
