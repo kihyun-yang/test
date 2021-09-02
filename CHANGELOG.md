@@ -1,3 +1,13 @@
+# Semantic Versioning Changelog
+
+## [5.0.1](https://github.com/kihyun-yang/test/compare/v5.0.0...v5.0.1) (2021-09-02)
+
+
+### Bug Fixes
+
+* **test:** fetch version change ([3a0930a](https://github.com/kihyun-yang/test/commit/3a0930ad6f49acde7ef67ab16c2a7553a6292de1))
+* **test:** fetch version change ([4a74cf3](https://github.com/kihyun-yang/test/commit/4a74cf31f30fe549d491885110611bb7a58a2196))
+
 # [5.0.0](https://github.com/kihyun-yang/test/compare/v4.3.0...v5.0.0) (2021-09-01)
 
 
