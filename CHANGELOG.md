@@ -1,5 +1,23 @@
 # Semantic Versioning Changelog
 
+# [6.0.0](https://github.com/kihyun-yang/test/compare/v5.1.0...v6.0.0) (2021-09-02)
+
+
+### Bug Fixes
+
+* **test:** major version change ([25d1a07](https://github.com/kihyun-yang/test/commit/25d1a07925275bb4a2318699f957ddbfb2cf1b63))
+* **test:** major version change ([79660c5](https://github.com/kihyun-yang/test/commit/79660c5ab57664c99a6fe16862d01887e13b91ef))
+
+
+### BREAKING CHANGES
+
+* **test:** - something
+
+footer test
+* **test:** - something
+
+footer test
+
 # [5.1.0](https://github.com/kihyun-yang/test/compare/v5.0.4...v5.1.0) (2021-09-02)
 
 
