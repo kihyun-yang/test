@@ -1,5 +1,12 @@
 # Semantic Versioning Changelog
 
+## [6.0.1](https://github.com/kihyun-yang/test/compare/v6.0.0...v6.0.1) (2021-09-02)
+
+
+### Bug Fixes
+
+* **테스트:** fetch version change ([37cfdcb](https://github.com/kihyun-yang/test/commit/37cfdcbbd8d6e5b4d6becc57ec87095f26805c5e))
+
 # [6.0.0](https://github.com/kihyun-yang/test/compare/v5.1.0...v6.0.0) (2021-09-02)
 
 
