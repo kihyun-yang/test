@@ -13,6 +13,6 @@ echo "jar = $JAR_VERSION"
 # These files will be upload to github by @semantic-release/github
 chmod +x gradlew
 ./gradlew build
-mkdir release && cp build/libs/*.jar release
+cp build/libs/*.jar release
 
 printenv
